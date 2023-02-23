@@ -1,0 +1,6 @@
+.onAttach <- function(libname, pkgname) {
+  # ...
+  packageStartupMessage("Welcome to izmir package!\nThis is an unofficial R package for Izmir Municipality Open Data Portal.\nFor more information, you can visit https://acikveri.bizizmir.com/")
+
+  # ...
+}
