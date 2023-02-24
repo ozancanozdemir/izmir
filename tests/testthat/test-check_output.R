@@ -1,8 +1,9 @@
-context("check-output") #Our test file is called test-check_output.R
+#context("check-output") #Our test file is called test-check_output.R
 library(testthat) #load testthat package
 library(izmir) #load the package
 
-test_that("get_data_from_izmir returns a data frame",{
-  result <- get_data_from_izmir("asik-veysel-rekreasyon-alani-buz-pisti-kullanici-verileri")
-  expect_is(result,"data.frame")
+test_that("encoding_data returns a list",{
+  df<-data.frame(name = c("Izmir","Buyuksehir"))
+  result<-encoding_data(df)
+  expect_type(result,"list")
 })

@@ -3,4 +3,5 @@
 export(get_data_from_izmir)
 export(list_data_names)
 export(search_data_by_keyword)
-importFrom(dplyr,"%>%")
+importFrom(magrittr,"%>%")
+importFrom(utils,read.csv)

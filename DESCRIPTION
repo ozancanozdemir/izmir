@@ -8,8 +8,7 @@ Authors@R: c(
              role = c("aut","cre"),
              email = "ozancanozdemir@gmail.com"))
 Maintainer: Ozancan Ozdemir <ozancanozdemir@gmail.com>
-Description: Call data wrappers for Izmir Metropolitan Municipality's Open Data Portal 
-(Turkish: İzmir Büyükşehir Belediyesi Açık Veri Portalı) at <https://acikveri.bizizmir.com/>.
+Description: Call data wrappers for Izmir Metropolitan Municipality's Open Data Portal at <https://acikveri.bizizmir.com>. It returns the all datasets formatted as csv or xlsx, and datasets having API key.
 License: MIT + file LICENSE
 URL: https://github.com/ozancanozdemir/izmir
 BugReports: https://github.com/ozancanozdemir/izmir/issues
@@ -20,11 +19,10 @@ Imports:
     rvest,
     stringr,
     jsonlite,
-    rlang (>= 0.1.2), 
-    tibble,
     readr,
     openxlsx,
-    utils
+    utils,
+    magrittr
 Suggests: 
     testthat (>= 3.0.0),
     devtools,

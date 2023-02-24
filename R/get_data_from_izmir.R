@@ -3,11 +3,13 @@
 #' @param data_name A data set name obtained from list_data_names()
 #' @return A data frame that shows the observations for given data name
 #' @examples
+#' \dontrun{
 #' get_data_from_izmir("asik-veysel-rekreasyon-alani-buz-pisti-kullanici-verileri")
+#'}
 #'
 #' @export
-#' @importFrom dplyr "%>%"
-#'
+#' @importFrom magrittr %>%
+#' @importFrom utils read.csv
 get_data_from_izmir<-function(data_name){
   #requireNamespace(dplyr)
   #requireNamespace(rvest)

@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2023 Ozancan Ozdemir
+Copyright (c) 2023 izmir authors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

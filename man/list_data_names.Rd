@@ -13,6 +13,7 @@ A character vector that shows the name of the data set
 list the name of the data sets available in Izmir Open Data Portal
 }
 \examples{
+\dontrun{
 list_data_names()
-
+}
 }

@@ -16,6 +16,8 @@ A data frame that shows the observations for given data name
 Given a data name, this function returns the data frame
 }
 \examples{
+\dontrun{
 get_data_from_izmir("asik-veysel-rekreasyon-alani-buz-pisti-kullanici-verileri")
+}
 
 }

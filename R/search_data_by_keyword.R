@@ -3,9 +3,11 @@
 #' @param key_word A data set name which is a character object
 #' @return  A character vector object that shows the name of the datasets including key word
 #' @examples
+#' \dontrun{
 #' search_data_by_keyword("doktor")
+#' }
 #' @export
-#'@importFrom dplyr "%>%"
+#'@importFrom magrittr %>%
 search_data_by_keyword<-function(key_word){
   data_list <- invisible(list_data_names())
   stringr::str_subset(data_list,key_word)
