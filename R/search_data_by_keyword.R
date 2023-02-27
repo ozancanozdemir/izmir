@@ -3,7 +3,7 @@
 #' @param key_word A data set name which is a character object
 #' @return  A character vector object that shows the name of the datasets including key word
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' search_data_by_keyword("doktor")
 #' }
 #' @export

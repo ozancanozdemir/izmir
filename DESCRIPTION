@@ -8,7 +8,7 @@ Authors@R: c(
              role = c("aut","cre"),
              email = "ozancanozdemir@gmail.com"))
 Maintainer: Ozancan Ozdemir <ozancanozdemir@gmail.com>
-Description: Call data wrappers for Izmir Metropolitan Municipality's Open Data Portal at <https://acikveri.bizizmir.com>. It returns the all datasets formatted as csv or xlsx, and datasets having API key.
+Description: Call the data wrappers for Izmir Metropolitan Municipality's Open Data Portal at <https://acikveri.bizizmir.com>. This will return all datasets formatted as Excel files (.csv or .xlsx), as well as datasets that require an API key.
 License: MIT + file LICENSE
 URL: https://github.com/ozancanozdemir/izmir
 BugReports: https://github.com/ozancanozdemir/izmir/issues

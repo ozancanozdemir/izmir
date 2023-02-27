@@ -2,7 +2,7 @@
 #' @description list the name of the data sets available in Izmir Open Data Portal
 #' @return A character vector that shows the name of the data set
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' list_data_names()
 #'}
 #' @export

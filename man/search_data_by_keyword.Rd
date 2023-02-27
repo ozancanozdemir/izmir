@@ -16,7 +16,7 @@ A character vector object that shows the name of the datasets including key word
 Given a key word, this function returns the dataset names including key word
 }
 \examples{
-\dontrun{
+\donttest{
 search_data_by_keyword("doktor")
 }
 }
