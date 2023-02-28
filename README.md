@@ -10,7 +10,13 @@ This package is developed to access the datasets in [İzmir Open Data Portal](ht
 
 ## Installation
 
-You can install the package from GitHub
+You can install the package from CRAN.
+
+```
+install.packages("izmir")
+```
+
+You can also install the package from GitHub.
 
 ```
 remotes::install_github("ozancanozdemir/izmir")
