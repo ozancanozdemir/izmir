@@ -10,7 +10,7 @@ This package is developed to access the datasets in [İzmir Open Data Portal](ht
 
 ## Installation
 
-You can install the package from CRAN.
+You can install the package from [CRAN.](https://cran.r-project.org/web/packages/izmir/index.html)
 
 ```
 install.packages("izmir")
